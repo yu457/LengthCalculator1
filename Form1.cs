@@ -16,5 +16,10 @@ namespace LengthCalculator1
         {
             InitializeComponent();
         }
+
+        private void txtCM_KeyUp(object sender, KeyEventArgs e)
+        {
+
+        }
     }
 }
