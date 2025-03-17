@@ -44,5 +44,15 @@ namespace LengthCalculator1
             txtYard.Text = string.Format("{0:0.##########}", douM * 1.09361);
 
         }
+
+        private void btnAllClear_Click(object sender, EventArgs e)
+        {
+            txtCM.Text = "";
+            txtM.Text = "";
+            txtKM.Text = "";
+            txtIn.Text = "";
+            txtFt.Text = "";
+            txtYard.Text = "";  
+        }
     }
 }
