@@ -81,6 +81,7 @@
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(100, 25);
             this.txtYard.TabIndex = 28;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // txtFt
             // 
@@ -88,6 +89,7 @@
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(100, 25);
             this.txtFt.TabIndex = 27;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // txtIn
             // 
@@ -95,6 +97,7 @@
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(100, 25);
             this.txtIn.TabIndex = 26;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // txtKM
             // 
@@ -152,6 +155,7 @@
             this.label6.Size = new System.Drawing.Size(52, 25);
             this.label6.TabIndex = 20;
             this.label6.Text = "英吋";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
